@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>LawScientists – India’s Legal Q&A Platform</title>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --primary: #0a2540;
+      --accent: #0055cc;
+      --bg: #f9fbfc;
+      --text: #1a1a1a;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      background-color: var(--bg);
+      color: var(--text);
+      padding: 60px 20px;
+      line-height: 1.6;
+      text-align: center;
+    }
+
+    h1 {
+      font-family: 'DM Serif Display', serif;
+      font-size: 2.8rem;
+      color: var(--primary);
+      margin-bottom: 10px;
+    }
+
+    p.subhead {
+      font-size: 1.2rem;
+      color: #444;
+      max-width: 600px;
+      margin: 10px auto 40px;
+    }
+
+    .cta-box {
+      background: white;
+      border: 1px solid #e5e7eb;
+      border-radius: 12px;
+      max-width: 540px;
+      margin: 0 auto 40px;
+      padding: 30px;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+      transition: all 0.3s ease;
+    }
+
+    .cta-box:hover {
+      box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
+    }
+
+    .cta-title {
+      font-size: 1.25rem;
+      font-weight: 600;
+      color: var(--primary);
+      margin-bottom: 15px;
+    }
+
+    form {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 12px;
+    }
+
+    input[type="email"] {
+      padding: 12px 16px;
+      font-size: 1rem;
+      width: 280px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+    }
+
+    button {
+      background-color: var(--primary);
+      color: #fff;
+      padding: 12px 20px;
+      font-size: 1rem;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: background 0.3s ease;
+    }
+
+    button:hover {
+      background-color: #081c36;
+    }
+
+    .features {
+      margin-top: 50px;
+      font-size: 1.1rem;
+      color: #333;
+    }
+
+    .features span {
+      display: block;
+      margin: 10px 0;
+    }
+
+    footer {
+      margin-top: 60px;
+      font-size: 0.9rem;
+      color: #888;
+    }
+
+    @media (max-width: 600px) {
+      input[type="email"], button {
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <h1>LawScientists</h1>
+  <p class="subhead">India’s most trusted space for legal Q&A, community mentorship, and verified law discussions.</p>
+
+  <div class="cta-box">
+    <div class="cta-title">🚀 We're launching soon. Join the early access list:</div>
+    <form action="https://formspree.io/f/xanbejwa" method="POST">
+      <input type="email" name="email" placeholder="Your email address" required />
+      <button type="submit">Join Waitlist</button>
+    </form>
+  </div>
+
+  <div class="features">
+    <span>✔️ Public – Ask legal questions anonymously</span>
+    <span>✔️ Lawyers – Verify your profile & answer publicly</span>
+    <span>✔️ Law Students – Learn by doing, grow your skills</span>
+    <span>✔️ Legal Experts – Build community & reputation</span>
+  </div>
+
+  <footer>
+    connect@lawscientists.com &bull; © 2025 LawScientists
+  </footer>
+
+</body>
+</html>
